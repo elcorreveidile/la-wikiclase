@@ -2,8 +2,6 @@ import { NestFactory } from '@nestjs/core';
 import { FastifyAdapter, NestFastifyApplication } from '@nestjs/platform-fastify';
 import { ValidationPipe } from '@nestjs/common';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
-import helmet from '@fastify/helmet';
-import cors from '@fastify/cors';
 import { AppModule } from './app.module';
 
 async function bootstrap() {
@@ -12,9 +10,9 @@ async function bootstrap() {
     new FastifyAdapter({ logger: true }),
   );
 
-  // Security
-  await app.register(helmet);
-  await app.register(cors, {
+  // Security - Register Fastify plugins
+  await app.register(require('@fastify/helmet'));
+  await app.register(require('@fastify/cors'), {
     origin: process.env.FRONTEND_URL || 'http://localhost:3000',
     credentials: true,
   });
