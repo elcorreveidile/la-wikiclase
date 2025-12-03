@@ -129,4 +129,4 @@ Visita:
 
 ## 📄 Licencia
 
-Proyecto privado de Juan Blas Láinez - Todos los derechos reservados
+Proyecto privado de Javier Benítez Láinez - Todos los derechos reservados
