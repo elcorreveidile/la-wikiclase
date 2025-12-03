@@ -109,8 +109,8 @@ Visita:
 6. **Clases por Zoom - Moodle** - Plataforma LMS actual
 7. **BlaBlaEle** - Escuela de idiomas
 8. **Clínica Lingüística y Cultural** - Proyecto metodológico
-9. **Juan Blas Láinez** - Web personal
-10. **Juan Blas Láinez Blog** - Blog personal
+9. **Javier Benítez Láinez** - Web personal
+10. **Javier Benítez Láinez Blog** - Blog personal
 11. **CEELEEME** - Recursos ELE
 12. **De Tapas por Granada** - Webquest educativa
 13. **Olvidos de Granada** - Revista cultural
