@@ -13,7 +13,7 @@ export default function HomePage() {
           </h1>
           <p className="text-xl text-gray-600 mb-8">
             Tu plataforma integral para aprender español, literatura y metodología educativa.
-            Cursos profesionales diseñados por Juan Blas Láinez.
+            Cursos profesionales diseñados por Javier Benítez Láinez.
           </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <Link
